@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2C9F84F1060B419CBBB7740A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 86B9A78DAB9D463C8D0B0019 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B6A81B170FB1FB64629560DA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				27A4A375BFE6418FB830E685 /* PBXTargetDependency */,
+				6593FF2E39444DBFB8C9422A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		72F0776C5C9D4087B4AC31BB /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 86AC16A49FA54C55A2FA3680 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				CA1AFB0A3DA949BF987658D4 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		7D3BE105BC83416DB75365A7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80F2DCEBBE5D4C8E965B4C2C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3EE72316A272E099506DEEB8 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		21BAFC28691446B2BACF6DDE /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car.h */ = {isa = PBXBuildFile; fileRef = 39E54C0F6965402AA4C753A1 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car.h */; };
+		428E4E44931D44958C3A2DB5 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/ball.h */ = {isa = PBXBuildFile; fileRef = 72A50767A13F4FF1AE119F3D /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/ball.h */; };
+		48A72714089049D580D448D5 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/main.cc */ = {isa = PBXBuildFile; fileRef = 8665DD67602E48FBB38CA66A /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/main.cc */; };
+		7F0662FE73774BBE898D5D2D /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.cc */ = {isa = PBXBuildFile; fileRef = 1123B29F53F7470097966D97 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.cc */; };
+		C3194C9CFBB64BAD9E9F1475 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FCACF44585B446B9A08322B5 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/CMakeLists.txt */; };
+		DB9961645A294FE7A34EC909 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/config.h.in */ = {isa = PBXBuildFile; fileRef = 18D40105655148C281CCF551 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/config.h.in */; };
+		DF2A6509429040B2AB20C903 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/README.md */ = {isa = PBXBuildFile; fileRef = C0C939C06C4845B78C97F58D /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/README.md */; };
+		EFB344B5C53A4BB98A3C1732 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.h */ = {isa = PBXBuildFile; fileRef = 56A671658F7B4D07ACE811F6 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.h */; };
+		FA892B6A59614CA8B290C446 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/config.h */ = {isa = PBXBuildFile; fileRef = 8C9988DD00D944989FDCD080 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/config.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0242C3771A044B6982DDACB7 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4225E65F5A6847B4B6243C26 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		48303686F5BB478D828EC8BF /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F753ACA5BE0E426B96715965 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		67B6248B2AE3428D8DFC2659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D3D2155E0664CD4A91CC3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3BE105BC83416DB75365A7;
+			remoteInfo = ZERO_CHECK;
+		};
+		70BF47CD0AE2464CB840357E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D3D2155E0664CD4A91CC3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB799A54355D497C845B2216;
+			remoteInfo = "a2-carsoccer";
+		};
+		778D80D7E5AC4DDF9009C9C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D3D2155E0664CD4A91CC3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3BE105BC83416DB75365A7;
+			remoteInfo = ZERO_CHECK;
+		};
+		CA6F4AB2849740ABA7373B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D3D2155E0664CD4A91CC3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C9F84F1060B419CBBB7740A;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1123B29F53F7470097966D97 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = car_soccer.cc; path = car_soccer.cc; sourceTree = SOURCE_ROOT; };
+		18D40105655148C281CCF551 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/config.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = config.h.in; path = config.h.in; sourceTree = SOURCE_ROOT; };
+		39E54C0F6965402AA4C753A1 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = car.h; path = car.h; sourceTree = SOURCE_ROOT; };
+		499D1F24249A48B7A1AFADCB /* a2-carsoccer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "a2-carsoccer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A671658F7B4D07ACE811F6 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = car_soccer.h; path = car_soccer.h; sourceTree = SOURCE_ROOT; };
+		681D65E7874E4D1C8B7FA444 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		72A50767A13F4FF1AE119F3D /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/ball.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ball.h; path = ball.h; sourceTree = SOURCE_ROOT; };
+		8665DD67602E48FBB38CA66A /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = main.cc; sourceTree = SOURCE_ROOT; };
+		8C9988DD00D944989FDCD080 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = config.h; sourceTree = SOURCE_ROOT; };
+		C0C939C06C4845B78C97F58D /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		FCACF44585B446B9A08322B5 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E48AF492BC45497B9F96D3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230A243EC2FE476F85CE98C5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				72A50767A13F4FF1AE119F3D /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/ball.h */,
+				39E54C0F6965402AA4C753A1 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car.h */,
+				56A671658F7B4D07ACE811F6 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.h */,
+				8C9988DD00D944989FDCD080 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/config.h */,
+				18D40105655148C281CCF551 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/config.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4DAD90DBF6DD4EA1A7A3220C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A5E44F47B28441E84DB2C20 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				68D6F166301846A89B1341D7 /* CMake Rules */,
+				681D65E7874E4D1C8B7FA444 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		68D6F166301846A89B1341D7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		95BEBF399C894ACA8C00E2EE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1123B29F53F7470097966D97 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.cc */,
+				8665DD67602E48FBB38CA66A /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BC74B7A3E7014CBF970442E9 /* a2-carsoccer */ = {
+			isa = PBXGroup;
+			children = (
+				95BEBF399C894ACA8C00E2EE /* Source Files */,
+				230A243EC2FE476F85CE98C5 /* Header Files */,
+				FCACF44585B446B9A08322B5 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/CMakeLists.txt */,
+				C0C939C06C4845B78C97F58D /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/README.md */,
+			);
+			name = "a2-carsoccer";
+			sourceTree = "<group>";
+		};
+		F403F8122CEB4B27A05FA8BA = {
+			isa = PBXGroup;
+			children = (
+				BC74B7A3E7014CBF970442E9 /* a2-carsoccer */,
+				5A5E44F47B28441E84DB2C20 /* ALL_BUILD */,
+				FECF8321E0C544DBBF38DEFF /* Products */,
+				4DAD90DBF6DD4EA1A7A3220C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FECF8321E0C544DBBF38DEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499D1F24249A48B7A1AFADCB /* a2-carsoccer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB799A54355D497C845B2216 /* a2-carsoccer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D9E1619B81457D92F7C3BB /* Build configuration list for PBXNativeTarget "a2-carsoccer" */;
+			buildPhases = (
+				2CA2016015B0417C837C4772 /* Sources */,
+				E48AF492BC45497B9F96D3CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E3034D4BE0B430C91419C1A /* PBXTargetDependency */,
+			);
+			name = "a2-carsoccer";
+			productName = "a2-carsoccer";
+			productReference = 499D1F24249A48B7A1AFADCB /* a2-carsoccer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3D2155E0664CD4A91CC3BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 60C0EB6F8CE24E109C6FEBAA /* Build configuration list for PBXProject "a2-carsoccer" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0242C3771A044B6982DDACB7 /* Debug */,
+				4225E65F5A6847B4B6243C26 /* Release */,
+				48303686F5BB478D828EC8BF /* MinSizeRel */,
+				F753ACA5BE0E426B96715965 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F403F8122CEB4B27A05FA8BA;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				2C9F84F1060B419CBBB7740A /* ALL_BUILD */,
+				7D3BE105BC83416DB75365A7 /* ZERO_CHECK */,
+				FB799A54355D497C845B2216 /* a2-carsoccer */,
+				72F0776C5C9D4087B4AC31BB /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3EE72316A272E099506DEEB8 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  make -f /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  make -f /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  make -f /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  make -f /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B6A81B170FB1FB64629560DA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA2016015B0417C837C4772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0662FE73774BBE898D5D2D /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/car_soccer.cc */,
+				48A72714089049D580D448D5 /* /Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27A4A375BFE6418FB830E685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB799A54355D497C845B2216 /* a2-carsoccer */;
+			targetProxy = 70BF47CD0AE2464CB840357E /* PBXContainerItemProxy */;
+		};
+		4E3034D4BE0B430C91419C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D3BE105BC83416DB75365A7 /* ZERO_CHECK */;
+			targetProxy = 778D80D7E5AC4DDF9009C9C5 /* PBXContainerItemProxy */;
+		};
+		6593FF2E39444DBFB8C9422A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D3BE105BC83416DB75365A7 /* ZERO_CHECK */;
+			targetProxy = 67B6248B2AE3428D8DFC2659 /* PBXContainerItemProxy */;
+		};
+		CA1AFB0A3DA949BF987658D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C9F84F1060B419CBBB7740A /* ALL_BUILD */;
+			targetProxy = CA6F4AB2849740ABA7373B0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		272D2A6CECD9444E83A7589F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2B8103D1EAF646989DF86B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2B8ECB2D815F408D87200E9A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3AAA650C83AB4D7F91C390B7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		48134E134E3F4BC8B77C34A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4B381C89F49D441EAB6F6A76 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NanoGUI);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib/MinGfx-1.0/libMinGfxd.a","-framework OpenGL","-framework OpenGL","-framework OpenGL","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib/libnanogui.dylib");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a2-carsoccer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include/MinGfx-1.0","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include/nanovg","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4EA61487CB89445DA4B46891 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6554A27D5E1441BBAFB59EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		662B933E3CE64E59911B253B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NanoGUI);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib/MinGfx-1.0/libMinGfxd.a","-framework OpenGL","-framework OpenGL","-framework OpenGL","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib/libnanogui.dylib");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a2-carsoccer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include/MinGfx-1.0","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include/nanovg","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8130BF933BFE4F4FA866F2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		86B2958C74A34DF2993F95F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/build";
+			};
+			name = Debug;
+		};
+		9028FEF0E0E446048AE671AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		91C4C71C0E0D4E698D78DCFA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9D15B9D0A1DD41CBB3CFB078 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C606226DE5DD4D5F92FB41E6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/build";
+			};
+			name = MinSizeRel;
+		};
+		CBB9E2B48E434037BB3095D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NanoGUI);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14    ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib/MinGfx-1.0/libMinGfxd.a","-framework OpenGL","-framework OpenGL","-framework OpenGL","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib/libnanoguid.dylib");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a2-carsoccer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include/MinGfx-1.0","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include/nanovg","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DD12EC93DE0C49C0B3E0B054 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		DD2E8B7E8CDA4DBABF139F35 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NanoGUI);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14        -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib/MinGfx-1.0/libMinGfxd.a","-framework OpenGL","-framework OpenGL","-framework OpenGL","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/lib/libnanogui.dylib");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a2-carsoccer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include/MinGfx-1.0","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include","/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/include/nanovg","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EA15DA31D1C44DBEB7FBC495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F82926482A3C4CD3B3CF0774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/yunzhuhuang/Desktop/2021spring/4611/repo-huan2089/dev/a2-carsoccer/build/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48D9E1619B81457D92F7C3BB /* Build configuration list for PBXNativeTarget "a2-carsoccer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB9E2B48E434037BB3095D1 /* Debug */,
+				662B933E3CE64E59911B253B /* Release */,
+				4B381C89F49D441EAB6F6A76 /* MinSizeRel */,
+				DD2E8B7E8CDA4DBABF139F35 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60C0EB6F8CE24E109C6FEBAA /* Build configuration list for PBXProject "a2-carsoccer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B2958C74A34DF2993F95F6 /* Debug */,
+				F82926482A3C4CD3B3CF0774 /* Release */,
+				C606226DE5DD4D5F92FB41E6 /* MinSizeRel */,
+				DD12EC93DE0C49C0B3E0B054 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80F2DCEBBE5D4C8E965B4C2C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8103D1EAF646989DF86B82 /* Debug */,
+				8130BF933BFE4F4FA866F2C8 /* Release */,
+				9D15B9D0A1DD41CBB3CFB078 /* MinSizeRel */,
+				4EA61487CB89445DA4B46891 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86AC16A49FA54C55A2FA3680 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA15DA31D1C44DBEB7FBC495 /* Debug */,
+				6554A27D5E1441BBAFB59EEE /* Release */,
+				91C4C71C0E0D4E698D78DCFA /* MinSizeRel */,
+				272D2A6CECD9444E83A7589F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86B9A78DAB9D463C8D0B0019 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48134E134E3F4BC8B77C34A5 /* Debug */,
+				9028FEF0E0E446048AE671AD /* Release */,
+				3AAA650C83AB4D7F91C390B7 /* MinSizeRel */,
+				2B8ECB2D815F408D87200E9A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3D2155E0664CD4A91CC3BE /* Project object */;
+}
